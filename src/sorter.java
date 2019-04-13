@@ -1,5 +1,5 @@
-public class bubbleSort {
-    public static int[] bubbleSorter (int[] tab) {
+public class sorter {
+    public static int[] bubbleSort(int[] tab) {
         boolean change;
         int tmp;
         do{
@@ -15,4 +15,8 @@ public class bubbleSort {
         }while (change);
         return tab;
     }
+    public int[] quickSort(int[] tab){
+        return tab;
+    }
+
 }

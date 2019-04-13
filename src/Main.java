@@ -9,7 +9,7 @@ public class Main {
             System.out.print(tmp + " ");
         }
         System.out.println();
-        bubbleSort.bubbleSorter(tabelka);
+        sorter.bubbleSort(tabelka);
 
         for(int tmp : tabelka){
             System.out.print(tmp + " ");
